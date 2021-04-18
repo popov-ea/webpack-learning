@@ -1,0 +1,22 @@
+/*just from node_modules*/
+@import "~normalize.css";
+@import "roboto.css";
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ddd;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    /*import image from assets with file-loader*/
+    background-image: url("../assets/logo.png");
+    margin: 0 auto;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
